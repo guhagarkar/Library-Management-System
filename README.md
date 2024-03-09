@@ -89,11 +89,12 @@ The program enters a loop where it continuously displays a menu of options to th
 
 **Menu Options:**
 
-
-<img width="217" alt="Screenshot 2024-03-09 154925" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/41952cc9-91dc-4e9c-bf53-c1c872f0edaf">
-<img width="321" alt="Screenshot 2024-03-09 155116" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/e2be6070-0d19-4400-80a0-2eff82bf8a84">
-<img width="313" alt="Screenshot 2024-03-09 155152" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/5f70ff45-5ea6-409a-941b-1e6964ce5194">
-
+The menu options include:
+1)Add a book to the library.
+2)Remove a book from the library.
+3)Update the price of a book by its name.
+4)Search for a book by name and display its information.
+0)Exit the application.
 **User Input and Switch Statement:**
 The program reads the user's choice from the console and uses a switch statement to execute the corresponding action based on the user's choice.
 
@@ -108,7 +109,48 @@ The program continues to display the menu and process user input in a loop until
 **User Interaction and Output:**
 The View communicates with the user by displaying menu options and providing feedback based on user input, such as confirming book additions, removals, or updates.
 
+c)**com.qsp.lms.controller**
+oIn edu.qsp.lms.controller,we have Created One Class named as Controller.
+oWe Already knows that Controller acts as an Intermediary between the Model and the View.
+oIt Interacts with Models to Update or Modify the data, Updates the View
 
+**Controller.java**
+The Controller class you've provided is a crucial component in the MVC (Model-View-Controller) architectural pattern. In MVC, the Controller acts as an intermediary between the Model and the View. Its primary responsibility is to handle user input and coordinate interactions between the Model and the View. Here's an explanation of the code:
 
-                                  
+Package Import:
+The Controller class imports necessary packages, including java.util.ArrayList, java.util.Iterator, and classes from the com.qsp.lms.model package to work with data related to books and libraries.
 
+Library Instance:
+The Controller class has an instance of the Library class. This instance is used to manage and manipulate the library's data.
+
+1)addBook Method:
+•The addBook method is used to add a book to the library.
+•It retrieves the list of books from the library (using library.getBooks()), checks if the list is null, and if so, initializes it as an empty ArrayList.
+•It then adds the provided book to the list of books.
+
+2)Books GetMethod:
+•The GetBooks method is used to search for a book in the library by its name.
+•It iterates through the list of books and checks if any book's name matches the provided book name. If a match is found, it returns the book; otherwise, it returns null.
+
+3)removeBook Method:
+•The removeBook method uses the searchBooks method to find a book by name.
+•If the book is found, it removes the book from the list of books and returns true. If the book is not found, it returns false.
+
+4)updateBook Method:
+•The updateBook method is used to update the price of a book in the library by its name.
+•It first calls searchBooks to find the book with the given name.
+•If the book is found, it updates the book's price with the new price provided in the refBook parameter and returns true. If the book is not found, it returns false.
+
+5)Exit:
+•The Exit is used to exit from application.
+**
+RESULT:
+OPERATION 1: Add Book**
+<img width="617" alt="Screenshot 2024-03-09 165404" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/429ace78-7182-4a92-a4b9-2c5fe8cbfee6">
+
+**See the Result by Using Operation 4: Get Book    
+**
+<img width="373" alt="Screenshot 2024-03-09 165602" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/27ab689f-5244-4b1b-a73b-52a110e19e4c">
+
+**Operation 3: Update Book
+**
