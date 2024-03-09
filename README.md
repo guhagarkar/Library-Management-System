@@ -25,4 +25,73 @@ Controller: Acts as an intermediary between the Model and the View. It receives 
 For our project, By using the concept of MVC architecture, we have Created 3 Different packages named as: a) com.qsp.lms.model
                                   b) com.qsp.lms.view
                                   c) com.qsp.lms.controller
+                                  
+**Source Code:**
+a)com.qsp.lms.model
+oIn edu.qsp.lms.model package, we have created 2 different class such as Book and Library .
+oBook Class consists of Class Data Members such as bookname, AuthorName, price and publication.
+oLibrary consists of Class Data Members such as libraryName, libraryAddress, pinCode and List of
+
+**Book.java**
+
+The provided code defines a Java class named Book, which appears to be part of a library management system and is likely used in the Model component of the MVC (Model-View-Controller) architectural pattern. In MVC, the Model represents the data and business logic of the application. Here's an explanation of the code:
+Class Definition: The Book class is defined within the edu.qsp.lms.model package.
+
+**Data Members:**
+
+bookName: This is a private field to store the name of the book.
+AutherName: This is a private field to store the name of the author.
+bookprice: This is a private field to store the price of the book.
+
+**Getter and Setter Methods:**
+For each of the data members (bookName, AutherName and bookprice), there are corresponding getter and setter methods. Getter methods allow you to retrieve the values of these private fields, and setter methods allow you to set the values.
+
+**toString Method:**
+The toString method is overridden to provide a textual representation of the Book object. It returns a formatted string containing the values of the book's attributes (bookName, AutherName and bookprice).
+
+**Library.java**
+The Library class is another component in your library management system, and it is also part of the Model in the MVC (Model-View-Controller) architectural pattern. It represents the attributes and operations related to a library. Here's an explanation of the code:
+
+Class Definition: The Library class is defined within the com.qsp.lms.model package.
+
+**Data Members:**
+libraryName: This is a private field to store the name of the library.
+libraryAddress: This is a private field to store the address of the library.
+pinCode: This is a private field to store the PIN code of the library.
+books: This is a private field of type List<Book> to store a collection of Book objects. This represents the books available in the library.
+
+**Getter and Setter Methods:**
+For each of the data members (libraryName, libraryAddress, pinCode, and books), there are corresponding getter and setter methods. Getter methods allow you to retrieve the values of these private fields, and setter methods allow you to set the values.
+
+**toString Method:**
+The toString method is overridden to provide a textual representation of the Library object. It returns a formatted string containing the values of the library's attributes (libraryName, libraryAddress, pinCode, and books).
+
+**b)com.qsp.lms.view**
+
+**View.java**
+
+The View class you've provided is a key component in the MVC (Model-View-Controller) architectural pattern. In MVC, the View is responsible for presenting the user interface and interacting with the user. It takes user input and displays information from the Model to the user. Here's an explanation of the code:
+
+**Package Import:**
+The View class imports necessary packages, including java.util.Scanner for user input and imports from the edu.qsp.lms.controller and edu.qsp.lms.model packages to use the Controller and Model components, respectively.
+
+**Static Fields:**
+The View class defines static fields to hold a Scanner, a Library object, and a Controller object. These are initialized at the class level.
+
+**Static Block:**
+There is a static block that is executed when the class is loaded. In this block, some initial setup for the library is performed, such as obtaining the library name, address, and PIN code from the user and setting them in the library object.
+
+**Main Method:**
+The main method serves as the entry point of the application.
+
+**User Interaction Loop:**
+The program enters a loop where it continuously displays a menu of options to the user and responds to their input.
+
+**Menu Options:**
+<img width="313" alt="Screenshot 2024-03-09 155152" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/a1f00f50-5aa4-476d-bf48-db4dc0dcd250">
+
+
+
+
+                                  
 
