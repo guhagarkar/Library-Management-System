@@ -88,8 +88,25 @@ The main method serves as the entry point of the application.
 The program enters a loop where it continuously displays a menu of options to the user and responds to their input.
 
 **Menu Options:**
-<img width="313" alt="Screenshot 2024-03-09 155152" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/a1f00f50-5aa4-476d-bf48-db4dc0dcd250">
 
+
+<img width="217" alt="Screenshot 2024-03-09 154925" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/41952cc9-91dc-4e9c-bf53-c1c872f0edaf">
+<img width="321" alt="Screenshot 2024-03-09 155116" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/e2be6070-0d19-4400-80a0-2eff82bf8a84">
+<img width="313" alt="Screenshot 2024-03-09 155152" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/5f70ff45-5ea6-409a-941b-1e6964ce5194">
+
+**User Input and Switch Statement:**
+The program reads the user's choice from the console and uses a switch statement to execute the corresponding action based on the user's choice.
+
+**Controller Interaction:**
+The View interacts with the Controller component (through the controller object) to perform actions on the Model (in this case, the Library and Book objects).
+For example, when the user chooses to add a book, the View collects information about the book and calls the controller.addBook(book1) method to add it to the library.
+Similarly, other actions involve interactions with the Controller to manipulate and retrieve data.
+
+**Loop Continuation:**
+The program continues to display the menu and process user input in a loop until the user chooses to exit (case 0).
+
+**User Interaction and Output:**
+The View communicates with the user by displaying menu options and providing feedback based on user input, such as confirming book additions, removals, or updates.
 
 
 
