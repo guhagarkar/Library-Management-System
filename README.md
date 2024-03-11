@@ -164,6 +164,8 @@ RESULT:
 
 **Operation 3: Update Book
 **
+![WhatsApp Image 2024-03-11 at 3 42 52 PM](https://github.com/guhagarkar/Library-Management-System/assets/161924195/4ed48999-ff20-46ba-af34-8f9f0d5fcc21)
+
 
 **Operation 4: Get Book
 **
