@@ -3,10 +3,15 @@
 INTRODUCTION
 
 A Library management system that maintains library records. It can improve efficiency by reducing the time spent on administrative tasks, 
-Such as, 1) Add books
+Such as,
+1) Add books
+
 2) Get books
+
 3) Remove books
+
 4) Update book price
+
 5) Exit
 
 FEATURE OF LIBRARY MANAGEMENT SYSTEM
@@ -159,9 +164,11 @@ OPERATION 1: Add Book**
 
 **Operation 3: Update Book
 **
+
 **Operation 4: Get Book
 **
 <img width="427" alt="Screenshot 2024-03-11 131135" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/70c16556-25b9-4408-8710-50a6b2533340">
+
 **Operation 0: Exit
 **
 <img width="349" alt="Screenshot 2024-03-11 131256" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/feb68d52-2ed2-46ba-a15c-7cbb0560fee3">
