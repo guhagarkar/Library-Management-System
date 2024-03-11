@@ -156,12 +156,11 @@ The Controller class has an instance of the Library class. This instance is used
 **
 
 RESULT:
-OPERATION 1: Add Book**
+**OPERATION 1: Add Book**
 <img width="617" alt="Screenshot 2024-03-09 165404" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/429ace78-7182-4a92-a4b9-2c5fe8cbfee6">
 
-**See the Result by Using Operation 4: Get Book    
-**
-<img width="373" alt="Screenshot 2024-03-09 165602" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/27ab689f-5244-4b1b-a73b-52a110e19e4c">
+**OPERATION 2: Remove Book**
+<img width="405" alt="Screenshot 2024-03-11 132022" src="https://github.com/guhagarkar/Library-Management-System/assets/161924195/c47edec1-fc08-4d3b-bbbc-2b21edf7a7de">
 
 **Operation 3: Update Book
 **
